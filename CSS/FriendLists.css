@@ -1,0 +1,137 @@
+body{
+	font-family:sans-serif;
+}
+
+#FriendList{
+	float:left;
+	margin:0px auto;
+	width:250px;
+	text-align:left;
+	height:100%;
+	overflow:auto;
+}
+			
+#FriendList div{
+	background:#3b5998;
+	margin-bottom:1px;
+	color:#FFFFFF;
+}
+			
+#FriendList img{
+	margin-top:4px;
+	margin-left:3px;
+}
+			
+#FriendList span{
+	float:right;
+	font-size:12px;
+}
+			
+#FriendList div:hover{
+	background:#DFDFDF;
+	color:#3b5998;
+	cursor:hand;
+}
+			
+#infoDiv{
+	float:left;
+	width:200px;
+	height:100%;
+	position:relative;
+}
+			
+#ControlList{
+	list-style:none;
+	padding:2px;
+	margin:0px;
+	padding-top:0px;
+}
+			
+#ControlList li{
+	width:193px;
+	height:130px;
+	text-align:center;
+	margin:3px;
+	margin-top:0px;
+	background:#3b5998;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	color:#FFFFFF;
+}
+
+#ControlList li:hover{
+	background:#DFDFDF;
+	color:3b5998;
+}
+			
+#ControlList li span{
+	display:block;
+	padding-top:55px;
+}
+
+#friendsInfo{
+	margin:50px 0px 0px 4px;
+}
+
+#GroupList{
+	height:100%;
+	overflow:auto;
+}
+			
+#GroupList div{
+	width:250px;
+	height:225px;
+	float:left;
+	overflow:auto;
+	margin:2px;
+	margin-top:0px;
+	border:1px solid;
+}
+			
+#GroupList ul{
+	height:100%;
+	margin:0px;
+	padding:0px;
+	overflow:auto;
+}
+			
+#GroupList div ul div{
+	height:55px;
+	background:#3b5998;
+	margin-bottom:1px;
+	color:#FFFFFF;
+	margin:0px;
+}
+			
+#GroupList div ul div img{
+	margin-top:4px;
+	margin-left:3px;
+}
+			
+#GroupList div ul div span{
+	float:right;
+	font-size:12px;
+}
+			
+#GroupList div ul div:hover{
+	background:#DFDFDF;
+	color:#3b5998;
+	cursor:hand;
+}
+
+#friendsInfo{
+	position:absolute;
+	bottom:2px;;
+}
+
+#friendsInfo span{
+	display:inline-block;
+	margin:3px 0px 3px 0px;
+}
+			
+h1{
+	font-size:15px;
+	height:30px;
+	margin-left:16px;
+}
